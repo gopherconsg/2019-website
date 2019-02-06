@@ -1,0 +1,3 @@
+# See https://www.netlify.com/docs/redirects/#handling-hostnames-and-protocols-differently
+
+http://2019.gophercon.sg/*  https://2019.gophercon.sg/:splat  301!

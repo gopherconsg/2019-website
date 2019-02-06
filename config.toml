@@ -1,0 +1,12 @@
+baseurl = "https://2019.gophercon.sg/"
+languageCode = "en-SG"
+title = "GopherCon Singapore 2019"
+theme = "gopherconsg-2017"
+
+[params]
+name = "GopherCon Singapore"
+description = "GopherCon Singapore is a Go programming language (Golang) conference in Southeast Asia."
+
+# Navigation
+[params.navigation]
+brand = "gopherconsg2019-long.png"
