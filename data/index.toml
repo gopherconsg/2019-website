@@ -3,14 +3,21 @@ title = "The largest Go programming language conference in Southeast Asia is bac
 logoname = "GopherCon Singapore 2019"
 logoSVG = "gopherconsg2019.svg"
 logoPNG = "gopherconsg2019.png"
-buttonlink = "#"
-buttontext = "Coming soon!"
+buttonlink = "#tickets"
+buttontext = "Get your tickets!"
 
 [hero.subtitle.1]
 text = "**Conference**<br />3 May"
 
 [hero.subtitle.2]
 text = "**Pre-conference Workshops**<br />29 April &ndash; 2 May"
+
+[tickets]
+headline = "Tickets"
+policy = """
+### Refund policy
+We offer refunds for all requests made before Monday, 15 April 2019 (end-of-day Singapore time). There will be a 10% fee for all refunds to cover ticketing and payment processing costs.
+"""
 
 [codeofconduct]
 content = """All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.

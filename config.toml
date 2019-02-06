@@ -10,3 +10,7 @@ description = "GopherCon Singapore is a Go programming language (Golang) confere
 # Navigation
 [params.navigation]
 brand = "gopherconsg2019-long.png"
+
+[params.navigation.links.01]
+title = "Workshops"
+link = "/workshops"

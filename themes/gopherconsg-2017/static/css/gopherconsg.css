@@ -490,6 +490,25 @@ h4.timeline-sub-block-header {
     height: 50px;
 }
 
+.navbar-default .nav .tito-tickets-button {
+    border-color: #fff;
+    padding: 15px;
+}
+
+.navbar-default .nav > li > tito-button {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #e84661;
+    background-color: #fff;
+}
+
+.navbar-default .nav > li > tito-button > button:hover,
+.navbar-default .nav > li > tito-button > button:focus:hover {
+    color: #fff;
+    background: #e84661;
+}
+
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;

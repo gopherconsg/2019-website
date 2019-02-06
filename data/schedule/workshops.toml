@@ -1,0 +1,70 @@
+[0429-ultimatego]
+timerange = "9.00am to 5.30pm"
+title = "Ultimate Go"
+date = "Monday, 29 April 2019<br />Tuesday, 30 April 2019"
+venue = "to be confirmed"
+address = ""
+venueinfo = "Lunch and tea breaks will be provided."
+type = "Workshop"
+instructor = "Jacob Walker"
+profile = "jacob-walker.jpg"
+twitter = "https://twitter.com/jcbwlkr"
+bio = """Jacob is a software developer, community organizer, and has really nice hair. Like ridiculously nice hair.
+
+He started his career creating web applications in PHP, Ruby, and Node.js. When he discovered Go he dove in deep and hasn't regretted it for a minute. He is now a Community Engineer with Ardan Labs where he is focused on helping members of the Go community."""
+# mapiframeurl = ""
+description = """This class has been designed over the past 4 years and goes beyond just being a language class. There will be very little teaching of syntax and a big focus on learning how to read and understand the code you are writing. With a big understanding of "if performance matters" then these things matter. We will talk about semantics, guidelines, mechanical sympathy and data oriented design. We are going to talk about writing concurrent code and how to effectively use channels. Then I will dig into benchmarking and profile tooling. We will talk a lot about composition and design.
+
+Everyone is going to be mentally exhausted at the end of the days. We will be challenging every student to think about what they are doing and why. In the 4 years we have taught this material, we never had someone not appreciate the class and feel like they are a better developer for it. If you want to be a better Go developer, code reviewer, designer and architect, this is the class you want to take.
+
+**Prerequisites:** A basic understanding of the Go programming language. Students do not have to be expert Go users, but they will get the most from the workshop if they have completed the majority of the tour (https://tour.golang.org/)."""
+
+[0501-practicalgo]
+timerange = "Time to be confirmed"
+title = "Practical Go"
+date = "Wednesday, 1 May"
+venue = "to be confirmed"
+address = ""
+venueinfo = "This is a half-day workshop. Lunch and tea break will be provided."
+type = "Workshop"
+instructor = "Dave Cheney"
+profile = "dave-cheney.jpg"
+twitter = "https://twitter.com/davecheney"
+bio = """David Cheney is an open source contributor and project member for the Go programming language. David is a well-respected voice within the tech community, speaking on a variety of topics such as software design, performance, and the Go programming language.
+
+In 2009, while idly perusing Google Reader, he ran across the announcement of a new open source language, Go. It was love at first sight. From that point David’s passion has taken him around the world writing, teaching, and speaking about Go.
+
+David is currently a member of the technical staff at VMware. Prior to their acquisition he served as a Staff Engineer at Heptio, a Seattle based company, focused on building tools to help developers become more productive with Kubernetes."""
+# mapiframeurl = ""
+description = """Go is a language designed for engineering teams. Its central themes are simplicity, readability, and maintainability.
+
+This workshop will provide best practice real world advice for teams building projects in Go covering five areas:
+
+- Idiomatic code
+- Package and API design
+- Error handling
+- Concurrency
+- Testing"""
+
+[0502-testingingo]
+timerange = "9.00am to 5.30pm"
+title = "Practical Guide to Testing in Go"
+date = "Thursday, 2 May 2019"
+venue = "to be confirmed"
+address = ""
+venueinfo = "Lunch and tea breaks will be provided."
+type = "Workshop"
+instructor = "Mark Bates"
+profile = "mark-bates.jpg"
+twitter = "https://twitter.com/markbates"
+bio = """Mark Bates is a full stack web developer with over 18 years of experience building high quality scalable applications for companies such as Apple, USA Today, Klarna, and Palm. He has written three books, “Distributed Programming with Ruby”, “Programming in CoffeeScript”, and “Conquering the Command Line”. Mark has spoken at conferences around the world, has led user groups such as Boston Ruby and Boston Golang, and has helped to organize conferences such as GothamGo and GopherCon.
+
+Mark is the co-founder of PaperCall.io, a platform for connecting technical events with high quality content and speakers. Mark is also a partner at Gopher Guides, the industry leader for Go training and conferences.
+
+In his spare time Mark leads development of the Go web framework Buffalo."""
+# mapiframeurl = ""
+description = """Whether you are just getting started in Go or have been writing Go code for a couple years, this class will make sure you have what you need to write simple, quick, robust tests.  We will start with the basics, and work through advanced concepts such as testing asynchronous code as well as mocking and injecting code.  We’ll finish up with looking at some popular testing libraries and CI (continuous integration) approaches.  We believe in a hands-on approach to learning, so bring your laptops and be ready to write a lot of tests! 
+
+Everyone will have a strong understanding of each part of testing.  The test package will be covered in depth, different approaches to table driven testing will be taught, as well as the numerous options for running tests and test suites.  From there, a deep dive into unit, api, and system level testing will be covered.    Students will learn how to test Net/HTTP packages, and how to mock out tests and create test harnesses.  TDD (Test Driven Development) and BDD (Behavior Driven Development) will be covered, and testing packages that correspond to each will be presented as well.  Finally, students will learn the basics on setting up Continuous integration both locally and at the server.
+
+**Prerequisites:** A basic understanding of the Go programming language. Beginners are highly encouraged to attend this training. While not necessary, it will be helpful if you have completed the Go tour (https://tour.golang.org)."""
