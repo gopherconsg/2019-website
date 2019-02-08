@@ -10,7 +10,7 @@ buttontext = "Get your tickets!"
 text = "**Conference**<br />3 May"
 
 [hero.subtitle.2]
-text = "**Pre-conference Workshops**<br />29 April &ndash; 2 May"
+text = "[**Pre-conference Workshops**<br />29 April &ndash; 2 May](/workshops)"
 
 [tickets]
 headline = "Tickets"
