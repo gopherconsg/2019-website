@@ -6,6 +6,12 @@ logoPNG = "gopherconsg2019.png"
 buttonlink = "#tickets"
 buttontext = "Get your tickets!"
 
+[hero.previous]
+text = "Check out what happened in previous years!"
+
+[hero.previous.assets.1]
+youtube = "Jpgqy8K6cyc"
+
 [hero.subtitle.1]
 text = "**Conference**<br />3 May"
 

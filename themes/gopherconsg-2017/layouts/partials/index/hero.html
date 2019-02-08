@@ -10,6 +10,11 @@
                     <img class="img-responsive" src="/img/{{ .logoPNG }}" alt="{{ .logoname }}" width="300" height="300">
                 </picture>
             </div>
+            {{ with .previous }}<h4 class="cover-subtitle">{{ .text }}</h4>
+                {{ range .assets }}
+                {{ with .youtube }}<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ . }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{{ end }}
+                {{ end }}
+            {{ end }}
             {{ range .subtitle }}
             <h4 class="cover-subtitle">{{ .text | markdownify }}</h4>
             {{ end }}
