@@ -491,8 +491,8 @@ h4.timeline-sub-block-header {
 }
 
 .navbar-default .nav .tito-tickets-button {
-    border-color: #fff;
     padding: 15px;
+    border: 0;
 }
 
 .navbar-default .nav > li > tito-button {
