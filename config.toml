@@ -15,3 +15,7 @@ brand = "gopherconsg2019-long.png"
 [params.navigation.links.01]
 title = "Workshops"
 link = "/workshops"
+
+[params.navigation.links.99]
+title = "Get Your Tickets!"
+link = "/#tickets"
