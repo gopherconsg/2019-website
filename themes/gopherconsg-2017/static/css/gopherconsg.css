@@ -916,6 +916,7 @@ fieldset[disabled] .btn-default.active {
 .hero-cta {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .hero-btn {
