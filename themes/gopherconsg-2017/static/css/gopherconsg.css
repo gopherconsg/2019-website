@@ -913,6 +913,11 @@ fieldset[disabled] .btn-default.active {
     transition: all .35s;
 }
 
+.hero-cta {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .hero-btn {
   text-transform: uppercase;
   margin-bottom: 12px;

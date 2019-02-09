@@ -4,7 +4,9 @@ logoname = "GopherCon Singapore 2019"
 logoSVG = "gopherconsg2019.svg"
 logoPNG = "gopherconsg2019.png"
 buttonlink = "#tickets"
-buttontext = "Get your tickets!"
+buttontext = "Get your tickets"
+button2link = "https://www.papercall.io/gopherconsg2019"
+button2text = "Propose a talk"
 
 [hero.previous]
 text = "Check out what happened in previous years!"
