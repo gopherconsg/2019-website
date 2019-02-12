@@ -6,10 +6,10 @@
                 {{ with .Site.Data.index.tickets.headline }}
                 <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
+                <hr class="primary">
                 <tito-widget event="gopherconsg/2019" ssl-check-disabled></tito-widget>
                 <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
                 {{ with .Site.Data.index.tickets.policy }}
-                <hr class="primary">
                 {{ . | markdownify }}
                 {{ end }}
             </div>
