@@ -57,7 +57,11 @@ type = "Workshop"
 instructor = "Tim Raymond"
 profile = "tim-raymond.jpg"
 twitter = "https://twitter.com/tim_raymond"
-bio = """Tim Raymond is a Gopher from Boston, Massachusetts, USA with six years of experience writing Go for companies such as USA Today, InfluxData, and Mattel. Seeking to spread the joy of programming in Go, he has been involved in Women Who Go workshops acting as a TA and instructor. Tim was also previously involved with the Ruby community serving as an organizer for the Boston Ruby Group for three years. His professional interests range across web applications, cryptography, testing, networking, and performance. Outside of Go, Tim is an avid skier, and spends much of his spare time in the White Mountains of New Hampshire."""
+bio = """Tim Raymond is a Gopher from Boston, Massachusetts, USA with six years of experience writing Go for companies such as USA Today, InfluxData, and Mattel. Seeking to spread the joy of programming in Go, he has been involved in Women Who Go workshops acting as a TA and instructor.
+
+Tim was also previously involved with the Ruby community serving as an organizer for the Boston Ruby Group for three years. His professional interests range across web applications, cryptography, testing, networking, and performance.
+
+Outside of Go, Tim is an avid skier, and spends much of his spare time in the White Mountains of New Hampshire."""
 # mapiframeurl = ""
 description = """Whether you are just getting started in Go or have been writing Go code for a couple years, this class will make sure you have what you need to write simple, quick, robust tests.  We will start with the basics, and work through advanced concepts such as testing asynchronous code as well as mocking and injecting code.  We’ll finish up with looking at some popular testing libraries and CI (continuous integration) approaches.  We believe in a hands-on approach to learning, so bring your laptops and be ready to write a lot of tests! 
 
