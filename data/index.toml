@@ -13,10 +13,22 @@ text = "Check out what happened in previous years!"
 youtube = "Jpgqy8K6cyc"
 
 [hero.subtitle.1]
-text = "**Conference**<br />3 May"
+text = "### **Conference**"
 
 [hero.subtitle.2]
-text = "[**Pre-conference Workshops**<br />29 April &ndash; 2 May](/workshops)"
+text = "3 May"
+
+[hero.subtitle.3]
+text = "Marina Bay Sands Expo & Convention Centre"
+
+[hero.subtitle.4]
+text = "### **[Pre-conference Workshops](/workshops)**"
+
+[hero.subtitle.5]
+text = "29 April &ndash; 2 May"
+
+[hero.subtitle.6]
+text = "Developer Space @ Google Singapore"
 
 [tickets]
 headline = "Tickets"
