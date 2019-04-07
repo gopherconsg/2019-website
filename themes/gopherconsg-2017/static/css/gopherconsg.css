@@ -71,7 +71,7 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #36bfbe;
+    background-color: #15c8df;
 }
 
 .text-faded {
@@ -365,7 +365,7 @@ h4.timeline-mono-header {
 
 .timeline-time {
   font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
-  color: #36bfbe;
+  color: #15c8df;
   padding-right: 5em;
   text-align: right;
 }
@@ -887,9 +887,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #36bfbe;
+    border-color: #65d6e4;
     color: #fff;
-    background-color: #36bfbe;
+    background-color: #65d6e4;
     -webkit-transition: all .35s;
     transition: all .35s;
 }
