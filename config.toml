@@ -9,8 +9,9 @@ description = "GopherCon Singapore is a Go programming language (Golang) confere
 ogimage = "gopherconsg2019-og.png"
 
 # Navigation
-[params.navigation]
-brand = "gopherconsg2019-long.png"
+[params.navigation.brand]
+svg = "gopherconsg2019-long.svg"
+png = "gopherconsg2019-long.png"
 
 [params.navigation.links.01]
 title = "Workshops"

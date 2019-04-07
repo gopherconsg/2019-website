@@ -10,7 +10,12 @@
                 <span class="icon-bar"></span>
             </button>
             {{ with .Site.Params.navigation.brand }}
-                <a class="navbar-brand" href="/"><img src="/img/{{ . }}" alt="{{ $.Site.Title }}" title="{{ $.Site.Title }}" /></a>
+                <a class="navbar-brand" href="/">
+                    <picture title="{{ $.Site.Title }}">
+                        <source type="image/svg+xml" srcset="/img/{{ .svg }}">
+                        <img src="/img/{{ .png }}" alt="{{ $.Site.Title }}">
+                    </picture>
+                </a>
             {{ end }}
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}

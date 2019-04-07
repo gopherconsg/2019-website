@@ -486,7 +486,7 @@ h4.timeline-sub-block-header {
     padding-top: 0;
 }
 
-.navbar-brand > img {
+.navbar-brand > picture, .navbar-brand > picture > img {
     height: 50px;
 }
 
