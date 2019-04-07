@@ -235,7 +235,7 @@ img.speaker-img-responsive {
   font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
   font-weight: 700;
   font-size: 1.5em;
-  color: #1da79d;
+  color: #15c8df;
   padding-bottom: 0.5em;
 }
 
@@ -365,7 +365,7 @@ h4.timeline-mono-header {
 
 .timeline-time {
   font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
-  color: #15c8df;
+  color: #33b0c0;
   padding-right: 5em;
   text-align: right;
 }
@@ -912,9 +912,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #15c8df;
     color: #fff;
-    background-color: #1da79d;
+    background-color: #15c8df;
 }
 
 .btn-primary:active,
@@ -941,12 +941,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #1da79d;
-    background-color: #1da79d;
+    border-color: #15c8df;
+    background-color: #15c8df;
 }
 
 .btn-primary .badge {
-    color: #1da79d;
+    color: #15c8df;
     background-color: #fff;
 }
 
