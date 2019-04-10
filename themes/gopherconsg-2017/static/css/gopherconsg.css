@@ -396,6 +396,11 @@ h4.timeline-sub-block-header {
   max-width: 650px;
 }
 
+.speaker-notes {
+    text-align: center;
+    font-style: italic;
+}
+
 .speaker-block {
   display: -ms-flexbox;
   display: -webkit-box;

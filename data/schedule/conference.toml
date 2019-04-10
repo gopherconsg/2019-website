@@ -1,0 +1,107 @@
+# Talks are displayed in alphanumerical order
+
+header = "Conference"
+subtitle = "*Schedule is currently not in order, and is subject to change.*"
+date = "Friday, 3rd May"
+type = "Talks"
+
+[talks]
+[talks.01]
+title = "$GOPHERCONSG/doors/open"
+class = "timeline-mono-header"
+timerange = "8.00am"
+talk = "Registration"
+
+[talks.10]
+title = "Clear is better than clever"
+class = "timeline-sub-header"
+# timerange = "9.10am"
+profile = "dave-cheney.jpg"
+name = "Dave Cheney"
+fragmentid = "dave-cheney"
+talk = """Well socialised Gophers often cite readability as one of Go’s core tenets, I disagree.
+
+In this talk I’ll discuss the differences between readability and clarity, show how to write clear Go code, and argue that Go programmers should strive for clarity, not just readability, in their programs."""
+
+[talks.20]
+title = "Go, pls stop breaking my editor"
+class = "timeline-sub-header"
+profile = "rebecca-stambler.jpg"
+name = "Rebecca Stambler"
+fragmentid = "rebecca-stambler"
+talk = """This talk will cover the motivation behind, implementation of, and future plans for gopls, the Go implementation of the Language Server Protocol. This tool is currently being developed by the Go team and Go tools community, and it will ultimately serve as the backend for any LSP-compatible editor."""
+
+[talks.21]
+title = "Using and Writing Go Analyses"
+class = "timeline-sub-header"
+profile = "michael-matloob.jpg"
+name = "Michael Matloob"
+fragmentid = "michael-matloob"
+talk = """The Analysis API is used to write analyses (like those in go vet and go lint) that can help surface bugs and show code improvements to users. I’ll show how to use and write analyses, and see their results, so you can help improve your code quality."""
+
+[talks.30]
+title = "High(er) Reliability Software Patterns for Go"
+class = "timeline-sub-header"
+profile = "junade-ali.jpg"
+name = "Junade Ali"
+fragmentid = "junade-ali"
+talk = """Software reliability is often neglected, but is increasingly important. This talk discusses why certain high-reliability software engineering practices exist and how they can be implemented in Go. This talk features real world software failures and describes how such instances can be prevented."""
+
+[talks.40]
+title = "Going Secure with Go"
+class = "timeline-sub-header"
+profile = "natalie-pistunovich.jpg"
+name = "Natalie Pistunovich"
+fragmentid = "natalie-pistunovich"
+talk = """Natalie will discuss a broad range of aspects of Go application security by taking on writing secure code, dependency management and Docker images and containers security."""
+
+[talks.50]
+title = "Optimizing Go code without a blindfold"
+class = "timeline-sub-header"
+profile = "daniel-marti.jpg"
+name = "Daniel Martí"
+fragmentid = "daniel-marti"
+talk = """Making code faster is exciting, and benchmarks in Go make that easy to do!
+
+Not really. Optimizing a program can be complex and require careful consideration to do properly. This talk will demonstrate techniques and tools which are a must for any performance aficionado."""
+
+[talks.60]
+title = "Deep learning in Go - Present and future"
+class = "timeline-sub-header"
+profile = "karthic-rao.jpg"
+name = "Karthic Rao"
+fragmentid = "karthic-rao"
+talk = """After hypnotizing the large scale cloud software community with its capabilities, Go now starts to stare at the exciting area of deep learning. Deep learning in Go?!! But why? And how? What’s next? Curious? Let’s explore it with a fun-filled, fast-paced deep dive into deep learning in Go."""
+
+[talks.70]
+title = "Controlling Distributed Energy Resources with Edge Computing and Go"
+class = "timeline-sub-header"
+talk = """With advancing technologies, energy distribution model has changed from being centralised to being distributed. We created a platform for distributing and running IoT apps, written in Go, on edge devices to monitor and control distributed energy resources such as photovoltaic and battery systems."""
+    fragmentid = "sp-digital"
+[talks.70.speakers]
+    [talks.70.speakers.01]
+    profile = "sausheong-chang.jpg"
+    name = "Sau Sheong Chang"
+    fragmentid = "sausheong-chang"
+    [talks.70.speakers.02]
+    profile = "adrianrully-santosa.jpg"
+    name = "Adrian Rully Santosa"
+    fragmentid = "adrian-rully-santosa"
+
+[talks.80]
+title = "Data Journey with Golang, GraphQL and Microservices"
+class = "timeline-sub-header"
+profile = "imre-nagi.jpg"
+name = "Imre Nagi"
+fragmentid = "imre-nagi"
+talk = """A unique experience from one of the big online travel agents in SEA, Traveloka, in migrating the internal data platform from a monolith Java app into microservices app in Golang & GraphQL. I will also discuss how we use Kubernetes & Istio to efficiently deploy, monitor and scale this system."""
+
+[talks.90goodbye]
+title = "GOODBYE"
+class = "timeline-mono-header"
+timerange = "6.30pm"
+
+[talks.99afterparty]
+title = "$GOPHERCONSG/after/party/🎉"
+class = "timeline-mono-header"
+timerange = "7.00pm to 11.59pm"

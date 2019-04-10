@@ -1,0 +1,116 @@
+# Speakers are displayed in alphanumerical order.
+
+subtitle = "*More speakers will be announced as they are confirmed.*"
+
+[profiles.1]
+profile = "dave-cheney.jpg"
+name = "Dave Cheney"
+fragmentid = "dave-cheney"
+brand = "https://twitter.com/davecheney"
+keynote = "&dash; keynote speaker &dash;"
+caption = "VMware"
+bio = """David Cheney is an open source contributor and project member for the Go programming language. David is a well-respected voice within the tech community, speaking on a variety of topics such as software design, performance, and the Go programming language.
+
+In 2009, while idly perusing Google Reader, he ran across the announcement of a new open source language, Go. It was love at first sight. From that point David’s passion has taken him around the world writing, teaching, and speaking about Go.
+
+David is currently a member of the technical staff at VMware. Prior to their acquisition he served as a Staff Engineer at Heptio, a Seattle based company, focused on building tools to help developers become more productive with Kubernetes."""
+title = "Clear is better than clever"
+
+[profiles.11]
+profile = "rebecca-stambler.jpg"
+name = "Rebecca Stambler"
+fragmentid = "rebecca-stambler"
+brand = "https://twitter.com/stamblerre"
+caption = "Google"
+bio = """Rebecca Stambler is a member of the Go team at Google, working as a software engineer on Go tools."""
+title = "Go, pls stop breaking my editor"
+
+[profiles.12]
+profile = "michael-matloob.jpg"
+name = "Michael Matloob"
+fragmentid = "michael-matloob"
+brand = "https://twitter.com/matloob"
+caption = "Google"
+bio = """Michael Matloob is a Software Engineer on the Go team at Google."""
+title = "Using and Writing Go Analyses"
+
+[profiles.21]
+profile = "junade-ali.jpg"
+name = "Junade Ali"
+fragmentid = "junade-ali"
+brand = "https://twitter.com/IcyApril"
+caption = "Cloudflare"
+bio = """Junade Ali is a British computer scientist with specialist knowledge of computer security, distributed systems and software design. His software engineering experience has varied from being the lead developer of the then largest digital agency in the UK (by headcount) to developing software for embedded systems used in mission critical road safety applications.
+
+Currently, Junade holds the position of Lead Support Operations Engineer at Cloudflare and is working part-time on a PhD in theoretical computer science."""
+title = "High(er) Reliability Software Patterns for Go"
+
+[profiles.22]
+profile = "natalie-pistunovich.jpg"
+name = "Natalie Pistunovich"
+fragmentid = "natalie-pistunovich"
+brand = "https://twitter.com/NataliePis"
+caption = "Fraugster"
+bio = """Natalie Pistunovich is a learner, a Gopher, a public speaker and a sailor.
+
+She is leading the observability efforts at Fraugster, Berlin, and is organizing GopherCon Europe. Prior to that she was a Backend Developer at GrayMeta, Los Angeles, a co-founder at Connta, Nairobi, a Backend Developer at adjust, Berlin, and a Silicon Integration Engineer at Intel, Haifa. She graduated with a B.Sc. in Computer and Software Engineering from the Technion in Israel.
+
+In her free time, Natalie is co-leading the Berlin chapters of the Go User Group and Women Techmakers."""
+title = "Going Secure with Go"
+
+[profiles.23]
+profile = "daniel-marti.jpg"
+name = "Daniel Martí"
+fragmentid = "daniel-marti"
+brand = "https://twitter.com/mvdan_"
+caption = "Brankas"
+bio = """Born in Barcelona, now living in England for its food and weather. Daniel has been involved with Go for over three years, including writing tools, libraries, and contributing to Go itself."""
+title = "Optimizing Go code without a blindfold"
+
+[profiles.24]
+profile = "karthic-rao.jpg"
+name = "Karthic Rao"
+fragmentid = "karthic-rao"
+brand = "https://twitter.com/hackintoshrao"
+caption = "Kredaro"
+bio = """Karthic is an entrepreneur, developer, musician, blogger, and a passionate learner.
+
+With his significant core contributions to Caddy Nginx alternative written in Go) and Minio (Amazon S3 alternative written in Go) Karthic’s primary tech expertise revolves around building high performance and cost-effective infrastructure + analytical tools and pipelines. His expertise stems from his experience of working with startups across Silicon Valley in the west to Singapore in the east.
+
+When not at work he might be found performing with Piano / Boxing / Trekking / on Motorcycle trips."""
+title = "Deep learning in Go - Present and future"
+
+[profiles.31]
+profile = "sausheong-chang.jpg"
+name = "Sau Sheong Chang"
+fragmentid = "sausheong-chang"
+talkid = "sp-digital"
+brand = "https://twitter.com/sausheong"
+caption = "SP Digital"
+bio = """Sau Sheong has been doing software development for 24 years, mostly in web application development for various industries including telcos, fintech, gaming, government and also energy/utility.
+
+He is active in the Ruby and Go developer communities have have contributed to open source projects and spoke at meetups and conferences. Sau Sheong has also published 4 programming-related books, on Ruby and Go, his latest being Go Web Programming published by Manning.
+
+He currently works for Singapore Power (a utility company), based out of sunny Singapore and has in his career worked for PayPal, HP, Yahoo, and also ran a technology startup during the dot-com days."""
+title = "Controlling Distributed Energy Resources with Edge Computing and Go"
+
+[profiles.32]
+profile = "adrianrully-santosa.jpg"
+name = "Rully Adrian Santosa"
+fragmentid = "adrianrully-santosa"
+talkid = "sp-digital"
+brand = "https://twitter.com/rullyadrian"
+caption = "SP Digital"
+bio = """"""
+title = "Controlling Distributed Energy Resources with Edge Computing and Go"
+
+[profiles.42]
+profile = "imre-nagi.jpg"
+name = "Imre Nagi"
+fragmentid = "imre-nagi"
+brand = "https://medium.com/@imrenagi"
+caption = "Traveloka"
+bio = """Imre is a Senior Software Engineer in Traveloka's data team. He works closely with a lot of big data technologies from Google Cloud Platform like Google Kubernetes Engine + Istio, Cloud Dataflow, Cloud Pub/Sub, Bigtable and Bigquery.
+
+Outside work, he is actively contributing to tech communities as Docker Community Leader in Jakarta, and also as one of the community leaders for Jakarta Kubernetes, a meetup that he recently started in the beginning of this year. His favourite series is The Flash."""
+title = "Data Journey with Golang, GraphQL and Microservices"
