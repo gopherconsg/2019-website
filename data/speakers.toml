@@ -80,6 +80,17 @@ With his significant core contributions to Caddy Nginx alternative written in Go
 When not at work he might be found performing with Piano / Boxing / Trekking / on Motorcycle trips."""
 title = "Deep learning in Go - Present and future"
 
+[profiles.25]
+profile = "jacob-walker.jpg"
+name = "Jacob Walker"
+fragmentid = "jacob-walker"
+brand = "https://twitter.com/jcbwlkr"
+caption = "Ardan Labs"
+bio = """Jacob is a software developer, community organizer, and has really nice hair. Like ridiculously nice hair.
+
+He started his career creating web applications in PHP, Ruby, and Node.js. When he discovered Go he dove in deep and hasn't regretted it for a minute. He is now a Community Engineer with Ardan Labs where he is focused on helping members of the Go community."""
+title = "Understanding Allocations: the Stack and the Heap"
+
 [profiles.31]
 profile = "sausheong-chang.jpg"
 name = "Sau Sheong Chang"
@@ -103,6 +114,19 @@ brand = "https://twitter.com/rullyadrian"
 caption = "SP Digital"
 bio = """"""
 title = "Controlling Distributed Energy Resources with Edge Computing and Go"
+
+[profiles.33]
+profile = "michael-farinacci.jpg"
+name = "Michael Farinacci"
+fragmentid = "michael-farinacci"
+brand = "https://twitter.com/rullyadrian"
+caption = "WeWork"
+bio = """Michael Farinacci is a software engineer building services and writing tests in Golang for WeWork in San Francisco.
+
+He has worked at other high-growth companies, mostly small startups such as Viptela, acquired by Cisco. Although versed in other languages, Golang has quickly become his favorite.
+
+When he’s not typing, he’s driving on the racetrack."""
+title = "Writing Microservice Integration Tests in Go (Finally)"
 
 [profiles.42]
 profile = "imre-nagi.jpg"

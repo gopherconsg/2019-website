@@ -73,6 +73,14 @@ name = "Karthic Rao"
 fragmentid = "karthic-rao"
 talk = """After hypnotizing the large scale cloud software community with its capabilities, Go now starts to stare at the exciting area of deep learning. Deep learning in Go?!! But why? And how? What’s next? Curious? Let’s explore it with a fun-filled, fast-paced deep dive into deep learning in Go."""
 
+[talks.65]
+title = "Understanding Allocations: the Stack and the Heap"
+class = "timeline-sub-header"
+profile = "jacob-walker.jpg"
+name = "Jacob Walker"
+fragmentid = "jacob-walker"
+talk = """Like C, Go uses both stack and heap memory. How can a Gopher know which is being used? Can you influence this decision? What effect does it have on your program? Are there any tools to help? This talk answers those questions and more."""
+
 [talks.70]
 title = "Controlling Distributed Energy Resources with Edge Computing and Go"
 class = "timeline-sub-header"
@@ -87,6 +95,14 @@ talk = """With advancing technologies, energy distribution model has changed fro
     profile = "adrianrully-santosa.jpg"
     name = "Adrian Rully Santosa"
     fragmentid = "adrian-rully-santosa"
+
+[talks.71]
+title = "Writing Microservice Integration Tests in Go (Finally)"
+class = "timeline-sub-header"
+profile = "michael-farinacci.jpg"
+name = "Michael Farinacci"
+fragmentid = "michael-farinacci"
+talk = """Integration testing microservices is an extremely difficult task when systems are large, but it doesn’t have to be that way. Golang’s native concurrency enables developers to easily run and communicate with mocked versions of downstream dependencies within their integration test code."""
 
 [talks.80]
 title = "Data Journey with Golang, GraphQL and Microservices"
