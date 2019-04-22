@@ -20,7 +20,7 @@ Everyone is going to be mentally exhausted at the end of the days. We will be ch
 **Prerequisites:** A basic understanding of the Go programming language. Students do not have to be expert Go users, but they will get the most from the workshop if they have completed the majority of the tour (https://tour.golang.org/)."""
 
 [0501-practicalgo]
-timerange = "Time to be confirmed"
+timerange = "12.30pm to 5.30pm"
 title = "Practical Go"
 date = "Wednesday, 1 May"
 venue = "Developer Space @ Google Singapore"
