@@ -2,7 +2,7 @@
 
 subtitle = "*More speakers will be announced as they are confirmed.*"
 
-[profiles.1]
+[profiles.01]
 profile = "dave-cheney.jpg"
 name = "Dave Cheney"
 fragmentid = "dave-cheney"
@@ -15,6 +15,15 @@ In 2009, while idly perusing Google Reader, he ran across the announcement of a 
 
 David is currently a member of the technical staff at VMware. Prior to their acquisition he served as a Staff Engineer at Heptio, a Seattle based company, focused on building tools to help developers become more productive with Kubernetes."""
 title = "Clear is better than clever"
+
+[profiles.05]
+profile = "bill-kennedy.jpg"
+name = "Bill Kennedy"
+fragmentid = "bill-kennedy"
+brand = "https://twitter.com/goinggodotnet"
+caption = "Ardan Labs"
+bio = """William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity."""
+title = "Garbage Collection Sematics"
 
 [profiles.11]
 profile = "rebecca-stambler.jpg"
@@ -91,6 +100,18 @@ bio = """Jacob is a software developer, community organizer, and has really nice
 He started his career creating web applications in PHP, Ruby, and Node.js. When he discovered Go he dove in deep and hasn't regretted it for a minute. He is now a Community Engineer with Ardan Labs where he is focused on helping members of the Go community."""
 title = "Understanding Allocations: the Stack and the Heap"
 
+[profiles.28]
+profile = "katie-fry.jpg"
+name = "Katie Fry"
+fragmentid = "katie-fry"
+caption = "golang-syd"
+bio = """Katie has been running Sydney’s Go Meetup, golang-syd, for the last 3 years. She has recently introduced Women Who Go to Sydney, and is also organising GopherConAu with Chewxy.
+
+She has a genuine passion for community engagement, and a personal mission to balance the gender ratio in Sydney’s Go community.
+
+Aside from her community work, she is a specialist Go Consultant at Naviro, assisting in the building out of Go development teams in Sydney."""
+title = "GOing to Sydney"
+
 [profiles.31]
 profile = "sausheong-chang.jpg"
 name = "Sau Sheong Chang"
@@ -138,3 +159,16 @@ bio = """Imre is a Senior Software Engineer in Traveloka's data team. He works c
 
 Outside work, he is actively contributing to tech communities as Docker Community Leader in Jakarta, and also as one of the community leaders for Jakarta Kubernetes, a meetup that he recently started in the beginning of this year. His favourite series is The Flash."""
 title = "Data Journey with Golang, GraphQL and Microservices"
+
+[profiles.50]
+profile = "sidu-ponnappa.jpg"
+name = "Sidu Ponnappa"
+fragmentid = "sidu-ponnappa"
+brand = "https://twitter.com/ponnappa"
+caption = "GOJEK"
+bio = """Sidu Ponnappa is the Managing Director at GOJEK India. Sidu has founded three startups, the last being acquired by GOJEK in 2015. At GOJEK, he is responsible for setting up and scaling the India organisation before moving to head up Data Engineering. He also serves as a Director on the Board of GOJEK.
+
+A hardcore technology enthusiast at heart, Sidu started coding when he was six and has since gone on to co-found 3 companies, launching 4 products. He has worked as an engineer, product manager, salesperson, recruiter, marketer, CTO and CEO. He has failed more times than he can count.
+
+He is an avid motorcycle lover."""
+title = "Engineering Luck: Essential and Accidental Complexity at GOJEK"

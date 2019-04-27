@@ -23,6 +23,18 @@ talk = """Well socialised Gophers often cite readability as one of Go’s core t
 
 In this talk I’ll discuss the differences between readability and clarity, show how to write clear Go code, and argue that Go programmers should strive for clarity, not just readability, in their programs."""
 
+[talks.15]
+title = "Garbage Collection Sematics"
+class = "timeline-sub-header"
+profile = "bill-kennedy.jpg"
+name = "Bill Kennedy"
+fragmentid = "bill-kennedy"
+talk = """Garbage collectors have the responsibility of tracking allocations on the heap, freeing up allocations that are no longer needed, and keeping allocations that are still in-use.
+
+How a language decides to implement this behavior is complicated and it shouldn’t be important for application developers to understand. Plus, with different releases of a language’s VM or runtime, the implementation of these systems are always changing and evolving. What’s important for application developers is to maintain a good working model of how the garbage collector for their language behaves and how they can be sympathetic with that behavior without being concerned as to the implementation.
+
+In this talk, I will explain how to be sympathetic with the Go garbage collector, regardless of the current implementation or how it changes in the future. This will make you a better Go developer."""
+
 [talks.20]
 title = "Go, pls stop breaking my editor"
 class = "timeline-sub-header"
@@ -81,6 +93,14 @@ name = "Jacob Walker"
 fragmentid = "jacob-walker"
 talk = """Like C, Go uses both stack and heap memory. How can a Gopher know which is being used? Can you influence this decision? What effect does it have on your program? Are there any tools to help? This talk answers those questions and more."""
 
+[talks.68]
+title = "GOing to Sydney"
+class = "timeline-sub-header"
+profile = "katie-fry.jpg"
+name = "Katie Fry"
+fragmentid = "katie-fry"
+talk = """In this talk I will: help to raise awareness of what employers typically look for when hiring for Go developers; pin point the red flags; talk about Sydney’s Go Community."""
+
 [talks.70]
 title = "Controlling Distributed Energy Resources with Edge Computing and Go"
 class = "timeline-sub-header"
@@ -111,6 +131,14 @@ profile = "imre-nagi.jpg"
 name = "Imre Nagi"
 fragmentid = "imre-nagi"
 talk = """A unique experience from one of the big online travel agents in SEA, Traveloka, in migrating the internal data platform from a monolith Java app into microservices app in Golang & GraphQL. I will also discuss how we use Kubernetes & Istio to efficiently deploy, monitor and scale this system."""
+
+[talks.85]
+title = "Engineering Luck: Essential and Accidental Complexity at GOJEK"
+class = "timeline-sub-header"
+profile = "sidu-ponnappa.jpg"
+name = "Sidu Ponnappa"
+fragmentid = "sidu-ponnappa"
+talk = """The talk covers what is to me the most nuanced and difficult to apply concept in software engineering — distinguishing between essential and accidental complexity, and learning to mitigate the latter, while solving for the former."""
 
 [talks.90goodbye]
 title = "GOODBYE"
