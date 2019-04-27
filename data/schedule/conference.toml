@@ -9,7 +9,7 @@ type = "Talks"
 [talks.01]
 title = "$GOPHERCONSG/doors/open"
 class = "timeline-mono-header"
-timerange = "8.00am"
+timerange = "8.30am"
 talk = "Registration"
 
 [talks.10]
