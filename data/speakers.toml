@@ -23,7 +23,7 @@ fragmentid = "bill-kennedy"
 brand = "https://twitter.com/goinggodotnet"
 caption = "Ardan Labs"
 bio = """William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity."""
-title = "Garbage Collection Sematics"
+title = "Garbage Collection Semantics"
 
 [profiles.11]
 profile = "rebecca-stambler.jpg"
