@@ -1,21 +1,34 @@
 # Talks are displayed in alphanumerical order
 
 header = "Conference"
-subtitle = "*Schedule is currently not in order, and is subject to change.*"
+subtitle = "*Schedule is subject to change.*"
 date = "Friday, 3rd May"
 type = "Talks"
 
 [talks]
 [talks.01]
 title = "$GOPHERCONSG/doors/open"
-class = "timeline-mono-header"
+class = "timeline-sub-header"
 timerange = "8.30am"
 talk = "Registration"
 
-[talks.10]
-title = "Clear is better than clever"
+[talks.04]
+title = "Conference start & housekeeping matters"
 class = "timeline-sub-header"
-# timerange = "9.10am"
+timerange = "9.30am"
+
+[talks.05]
+title = "Welcome address"
+class = "timeline-sub-header"
+timerange = "9.35am"
+profile = "sausheong-chang.jpg"
+name = "Sau Sheong Chang"
+fragmentid = "sausheong-chang"
+
+[talks.10]
+title = "Opening keynote: Clear is better than clever"
+class = "timeline-sub-header"
+timerange = "9.45am"
 profile = "dave-cheney.jpg"
 name = "Dave Cheney"
 fragmentid = "dave-cheney"
@@ -24,8 +37,70 @@ talk = """Well socialised Gophers often cite readability as one of Go’s core t
 In this talk I’ll discuss the differences between readability and clarity, show how to write clear Go code, and argue that Go programmers should strive for clarity, not just readability, in their programs."""
 
 [talks.15]
+title = "High(er) Reliability Software Patterns for Go"
+class = "timeline-sub-header"
+timerange = "10.20am"
+profile = "junade-ali.jpg"
+name = "Junade Ali"
+fragmentid = "junade-ali"
+talk = """Software reliability is often neglected, but is increasingly important. This talk discusses why certain high-reliability software engineering practices exist and how they can be implemented in Go. This talk features real world software failures and describes how such instances can be prevented."""
+
+[talks.18]
+title = "$GOPHERCONSG/teabreak"
+class = "timeline-mono-header"
+timerange = "10.45am"
+talk = """Coffee and snacks."""
+
+[talks.20]
+title = "Understanding Allocations: the Stack and the Heap"
+class = "timeline-sub-header"
+timerange = "11.00am"
+profile = "jacob-walker.jpg"
+name = "Jacob Walker"
+fragmentid = "jacob-walker"
+talk = """Like C, Go uses both stack and heap memory. How can a Gopher know which is being used? Can you influence this decision? What effect does it have on your program? Are there any tools to help? This talk answers those questions and more."""
+
+[talks.25]
+title = "Going Secure with Go"
+class = "timeline-sub-header"
+timerange = "11.25am"
+profile = "natalie-pistunovich.jpg"
+name = "Natalie Pistunovich"
+fragmentid = "natalie-pistunovich"
+talk = """Natalie will discuss a broad range of aspects of Go application security by taking on writing secure code, dependency management and Docker images and containers security."""
+
+[talks.30]
+title = "Using and Writing Go Analyses"
+class = "timeline-sub-header"
+timerange = "11.50am"
+profile = "michael-matloob.jpg"
+name = "Michael Matloob"
+fragmentid = "michael-matloob"
+talk = """The Analysis API is used to write analyses (like those in go vet and go lint) that can help surface bugs and show code improvements to users. I’ll show how to use and write analyses, and see their results, so you can help improve your code quality."""
+
+[talks.35]
+title = "Deep learning in Go - Present and future"
+class = "timeline-sub-header"
+timerange = "12.15pm"
+profile = "karthic-rao.jpg"
+name = "Karthic Rao"
+fragmentid = "karthic-rao"
+talk = """After hypnotizing the large scale cloud software community with its capabilities, Go now starts to stare at the exciting area of deep learning. Deep learning in Go?!! But why? And how? What’s next? Curious? Let’s explore it with a fun-filled, fast-paced deep dive into deep learning in Go."""
+
+[talks.40]
+title = "Sponsor lightning talks"
+class = "timeline-sub-header"
+timerange = "12.40pm"
+
+[talks.50]
+title = "$GOPHERCONSG/lunch/time"
+class = "timeline-mono-header"
+timerange = "12.50pm"
+
+[talks.60]
 title = "Garbage Collection Semantics"
 class = "timeline-sub-header"
+timerange = "2.05pm"
 profile = "bill-kennedy.jpg"
 name = "Bill Kennedy"
 fragmentid = "bill-kennedy"
@@ -35,41 +110,19 @@ How a language decides to implement this behavior is complicated and it shouldn�
 
 In this talk, I will explain how to be sympathetic with the Go garbage collector, regardless of the current implementation or how it changes in the future. This will make you a better Go developer."""
 
-[talks.20]
+[talks.62]
 title = "Go, pls stop breaking my editor"
 class = "timeline-sub-header"
+timerange = "2.30pm"
 profile = "rebecca-stambler.jpg"
 name = "Rebecca Stambler"
 fragmentid = "rebecca-stambler"
 talk = """This talk will cover the motivation behind, implementation of, and future plans for gopls, the Go implementation of the Language Server Protocol. This tool is currently being developed by the Go team and Go tools community, and it will ultimately serve as the backend for any LSP-compatible editor."""
 
-[talks.21]
-title = "Using and Writing Go Analyses"
-class = "timeline-sub-header"
-profile = "michael-matloob.jpg"
-name = "Michael Matloob"
-fragmentid = "michael-matloob"
-talk = """The Analysis API is used to write analyses (like those in go vet and go lint) that can help surface bugs and show code improvements to users. I’ll show how to use and write analyses, and see their results, so you can help improve your code quality."""
-
-[talks.30]
-title = "High(er) Reliability Software Patterns for Go"
-class = "timeline-sub-header"
-profile = "junade-ali.jpg"
-name = "Junade Ali"
-fragmentid = "junade-ali"
-talk = """Software reliability is often neglected, but is increasingly important. This talk discusses why certain high-reliability software engineering practices exist and how they can be implemented in Go. This talk features real world software failures and describes how such instances can be prevented."""
-
-[talks.40]
-title = "Going Secure with Go"
-class = "timeline-sub-header"
-profile = "natalie-pistunovich.jpg"
-name = "Natalie Pistunovich"
-fragmentid = "natalie-pistunovich"
-talk = """Natalie will discuss a broad range of aspects of Go application security by taking on writing secure code, dependency management and Docker images and containers security."""
-
-[talks.50]
+[talks.65]
 title = "Optimizing Go code without a blindfold"
 class = "timeline-sub-header"
+timerange = "2.55pm"
 profile = "daniel-marti.jpg"
 name = "Daniel Martí"
 fragmentid = "daniel-marti"
@@ -77,33 +130,16 @@ talk = """Making code faster is exciting, and benchmarks in Go make that easy to
 
 Not really. Optimizing a program can be complex and require careful consideration to do properly. This talk will demonstrate techniques and tools which are a must for any performance aficionado."""
 
-[talks.60]
-title = "Deep learning in Go - Present and future"
-class = "timeline-sub-header"
-profile = "karthic-rao.jpg"
-name = "Karthic Rao"
-fragmentid = "karthic-rao"
-talk = """After hypnotizing the large scale cloud software community with its capabilities, Go now starts to stare at the exciting area of deep learning. Deep learning in Go?!! But why? And how? What’s next? Curious? Let’s explore it with a fun-filled, fast-paced deep dive into deep learning in Go."""
-
-[talks.65]
-title = "Understanding Allocations: the Stack and the Heap"
-class = "timeline-sub-header"
-profile = "jacob-walker.jpg"
-name = "Jacob Walker"
-fragmentid = "jacob-walker"
-talk = """Like C, Go uses both stack and heap memory. How can a Gopher know which is being used? Can you influence this decision? What effect does it have on your program? Are there any tools to help? This talk answers those questions and more."""
-
 [talks.68]
-title = "GOing to Sydney"
-class = "timeline-sub-header"
-profile = "katie-fry.jpg"
-name = "Katie Fry"
-fragmentid = "katie-fry"
-talk = """In this talk I will: help to raise awareness of what employers typically look for when hiring for Go developers; pin point the red flags; talk about Sydney’s Go Community."""
+title = "$GOPHERCONSG/teabreak"
+class = "timeline-mono-header"
+timerange = "3.20pm"
+talk = """Coffee and snacks."""
 
 [talks.70]
 title = "Controlling Distributed Energy Resources with Edge Computing and Go"
 class = "timeline-sub-header"
+timerange = "3.40pm"
 talk = """With advancing technologies, energy distribution model has changed from being centralised to being distributed. We created a platform for distributing and running IoT apps, written in Go, on edge devices to monitor and control distributed energy resources such as photovoltaic and battery systems."""
     fragmentid = "sp-digital"
 [talks.70.speakers]
@@ -116,29 +152,54 @@ talk = """With advancing technologies, energy distribution model has changed fro
     name = "Adrian Rully Santosa"
     fragmentid = "adrian-rully-santosa"
 
-[talks.71]
+[talks.72]
+title = "Data Journey with Golang, GraphQL and Microservices"
+class = "timeline-sub-header"
+timerange = "4.05pm"
+profile = "imre-nagi.jpg"
+name = "Imre Nagi"
+fragmentid = "imre-nagi"
+talk = """A unique experience from one of the big online travel agents in SEA, Traveloka, in migrating the internal data platform from a monolith Java app into microservices app in Golang & GraphQL. I will also discuss how we use Kubernetes & Istio to efficiently deploy, monitor and scale this system."""
+
+[talks.75]
+title = "$GOPHERCONSG/stretch/break"
+class = "timeline-mono-header"
+timerange = "4.30pm"
+
+[talks.78]
 title = "Writing Microservice Integration Tests in Go (Finally)"
 class = "timeline-sub-header"
+timerange = "4.45pm"
 profile = "michael-farinacci.jpg"
 name = "Michael Farinacci"
 fragmentid = "michael-farinacci"
 talk = """Integration testing microservices is an extremely difficult task when systems are large, but it doesn’t have to be that way. Golang’s native concurrency enables developers to easily run and communicate with mocked versions of downstream dependencies within their integration test code."""
 
 [talks.80]
-title = "Data Journey with Golang, GraphQL and Microservices"
+title = "GOing to Sydney"
 class = "timeline-sub-header"
-profile = "imre-nagi.jpg"
-name = "Imre Nagi"
-fragmentid = "imre-nagi"
-talk = """A unique experience from one of the big online travel agents in SEA, Traveloka, in migrating the internal data platform from a monolith Java app into microservices app in Golang & GraphQL. I will also discuss how we use Kubernetes & Istio to efficiently deploy, monitor and scale this system."""
+timerange = "5.10pm"
+profile = "katie-fry.jpg"
+name = "Katie Fry"
+fragmentid = "katie-fry"
+talk = """In this talk I will: help to raise awareness of what employers typically look for when hiring for Go developers; pin point the red flags; talk about Sydney’s Go Community."""
 
-[talks.85]
+[talks.82]
 title = "Engineering Luck: Essential and Accidental Complexity at GOJEK"
 class = "timeline-sub-header"
+timerange = "5.35pm"
 profile = "sidu-ponnappa.jpg"
 name = "Sidu Ponnappa"
 fragmentid = "sidu-ponnappa"
 talk = """The talk covers what is to me the most nuanced and difficult to apply concept in software engineering — distinguishing between essential and accidental complexity, and learning to mitigate the latter, while solving for the former."""
+
+[talks.85]
+title = "Closing remarks & group photo"
+class = "timeline-sub-header"
+timerange = "6.10am"
+profile = "sausheong-chang.jpg"
+name = "Sau Sheong Chang"
+fragmentid = "sausheong-chang"
 
 [talks.90goodbye]
 title = "GOODBYE"
