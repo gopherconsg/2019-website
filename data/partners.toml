@@ -2,7 +2,59 @@ headline = "Partners"
 description = "Interested in becoming a partner? [Get in touch!](mailto:hello@gophercon.sg)"
 
 [platinum]
+title = "Platinum"
+
+[platinum.partners.gojek]
+name = "GOJEK"
+logo = "gojek.png"
+
+[platinum.partners.traveloka]
+name = "Traveloka"
+logo = "traveloka.png"
 
 [gold]
+title = "Gold"
+
+[gold.partners.dbs]
+name = "DBS"
+logo = "dbsbank.png"
+width = "70px"
+
+[gold.partners.spdigital]
+name = "SP Digital"
+logo = "spdigital.png"
+width = "140px"
+
+[gold.partners.wework]
+name = "WeWork"
+logo = "wework.png"
+width = "180px"
 
 [silver]
+title = "Silver"
+
+[silver.partners.brankas]
+name = "Brankas"
+logo = "brankas.png"
+width = "120px"
+
+[silver.partners.circleslife]
+name = "Circles.Life"
+logo = "circleslife.png"
+width = "90px"
+
+[silver.partners.google]
+name = "Google"
+logo = "google.png"
+width = "110px"
+
+[silver.partners.stackoverflow]
+name = "Stack Overflow for Enterprise"
+logo = "stackoverflow.png"
+width = "130px"
+
+[silver.partners.thoughtworks]
+name = "ThoughtWorks"
+logo = "thoughtworks.png"
+width = "150px"
+

@@ -151,6 +151,19 @@ img.img-responsive.venue-sponsor-logos {
   width: 180px;
 }
 
+.sponsor-heading {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.sponsor-hr {
+  max-width: 200px;
+  margin: 0 auto;
+  border-color: #ccc;
+  border-width: 1px;
+}
+
 .sponsor-row {
   display: -ms-flexbox;
   display: -webkit-box;
@@ -161,7 +174,7 @@ img.img-responsive.venue-sponsor-logos {
   -ms-flex-align: center;
   -webkit-box-align: center;
     align-items: center;
-  margin-top: 2em;
+  margin-top: 1rem;
 }
 
 .sponsor-row div:not(:last-child) {

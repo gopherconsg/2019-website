@@ -11,41 +11,49 @@
                 <hr class="primary">
                 {{ end }}
             </div>
-            <div class="col-lg-12 sponsor-logos">
+            <div class="col-lg-10 col-lg-offset-1 sponsor-logos">
                 {{ with .platinum }}
+                {{ with .title }}
+                <h3 class="sponsor-heading">{{ . }}</h3>
+                <hr class="sponsor-hr">
+                {{ end }}
                 <div class="platinum-sponsor-logos-row sponsor-row">
-                    <div class="text-center">
-                        {{ range . }}
-                        <img class="img-responsive platinum-sponsor-logos" src="img/{{ .logo }}" alt="{{ .name }}" title="{{ .name }}" />
-                        {{ end }}
-                    </div>
+                    {{ range .partners }}
+                    <img class="img-responsive platinum-sponsor-logos" {{ with .width }}style="max-width: {{ . }};"{{ end }} src="img/partners/{{ .logo }}" alt="{{ .name }}" title="{{ .name }}" />
+                    {{ end }}
                 </div>
                 {{ end }}
                 {{ with .gold }}
+                {{ with .title }}
+                <h3 class="sponsor-heading">{{ . }}</h3>
+                <hr class="sponsor-hr">
+                {{ end }}
                 <div class="gold-sponsor-logos-row sponsor-row">
-                    <div class="text-center">
-                        {{ range . }}
-                        <img class="img-responsive gold-sponsor-logos" src="img/{{ .logo }}" alt="{{ .name }}" title="{{ .name }}" />
-                        {{ end }}
-                    </div>
+                    {{ range .partners }}
+                    <img class="img-responsive gold-sponsor-logos" {{ with .width }}style="max-width: {{ . }};"{{ end }} src="img/partners/{{ .logo }}" alt="{{ .name }}" title="{{ .name }}"  />
+                    {{ end }}
                 </div>
                 {{ end }}
                 {{ with .silver }}
+                {{ with .title }}
+                <h3 class="sponsor-heading">{{ . }}</h3>
+                <hr class="sponsor-hr">
+                {{ end }}
                 <div class="silver-sponsor-logos-row sponsor-row">
-                    <div class="img-svg">
-                        {{ range . }}
-                            <img class="img-responsive silver-sponsor-logos" src="img/{{ .logo }}" alt="{{ .name }}" title="{{ .name }}" />
-                        {{ end }}
-                    </div>
+                    {{ range .partners }}
+                    <img class="img-responsive silver-sponsor-logos" {{ with .width }}style="max-width: {{ . }};"{{ end }} src="img/partners/{{ .logo }}" alt="{{ .name }}" title="{{ .name }}" />
+                    {{ end }}
                 </div>
                 {{ end }}
                 {{ with .venue }}
+                {{ with .title }}
+                <h3 class="sponsor-heading">{{ . }}</h3>
+                <hr class="sponsor-hr">
+                {{ end }}
                 <div class="venue-sponsor-logos-row sponsor-row">
-                    <div class="text-center">
-                        {{ range . }}
-                            <img class="img-responsive venue-sponsor-logos" src="img/{{ .logo }}" alt="{{ .name }}" title="{{ .name }}" />
-                        {{ end }}
-                    </div>
+                    {{ range .partners }}
+                    <img class="img-responsive venue-sponsor-logos" {{ with .width }}style="max-width: {{ . }};"{{ end }} src="img/partners/{{ .logo }}" alt="{{ .name }}" title="{{ .name }}" />
+                    {{ end }}
                 </div>
                 {{ end }}
             </div>
