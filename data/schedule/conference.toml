@@ -148,9 +148,9 @@ talk = """With advancing technologies, energy distribution model has changed fro
     name = "Sau Sheong Chang"
     fragmentid = "sausheong-chang"
     [talks.70.speakers.02]
-    profile = "adrianrully-santosa.jpg"
-    name = "Adrian Rully Santosa"
-    fragmentid = "adrian-rully-santosa"
+    profile = "rullyadrian-santosa.jpg"
+    name = "Rully Adrian Santosa"
+    fragmentid = "rullyadrian-santosa"
 
 [talks.72]
 title = "Data Journey with Golang, GraphQL and Microservices"
