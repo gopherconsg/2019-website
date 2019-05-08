@@ -3,8 +3,8 @@ title = "The largest Go programming language conference in Southeast Asia is bac
 logoname = "GopherCon Singapore 2019"
 logoSVG = "gopherconsg2019.svg"
 logoPNG = "gopherconsg2019.png"
-buttonlink = "#tickets"
-buttontext = "Get your tickets"
+buttonlink = "https://www.youtube.com/channel/UCazkIMpjghmT8fugD1WF_DQ"
+buttontext = "Thank you!"
 
 [hero.previous]
 text = "Check out what happened in previous years!"

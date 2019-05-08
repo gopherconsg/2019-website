@@ -24,7 +24,3 @@ link = "/schedule"
 [params.navigation.links.03]
 title = "Speakers"
 link = "/speakers"
-
-[params.navigation.links.99]
-title = "Get Your Tickets!"
-link = "/#tickets"
